@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #222;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url("bg/bg\ home.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.konten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-card {
+    background:#ffffff83;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    text-align: center;
+    transition: background 0.8s ease, transform 0.8s ease;
+}
+
+.profile-card:hover {
+    background: #ffffff;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #270a93;
+    box-shadow: 0 0 20px rgba(39, 10, 147, 0.3);
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #270a93;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.profile-info h3 {
+    color: #270a93;
+    margin-bottom: 8px;
+}
+
+.profile-info p, .profile-info ul {
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.profile-info ul {
+    list-style: disc inside;
+}
+
+.profile-info a {
+    color: #270a93;
+    text-decoration: none;
+}
+
+.profile-info a:hover {
+    text-decoration: underline;
+}
